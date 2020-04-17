@@ -11,11 +11,15 @@ This repository depends on Matlab and matconvnet. Matlab beyond 2018a and [matco
 ## Training
 The training code can be found in [TrainingCodes](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/TrainingCodes).
 
-## Seismic data interpolation
-We provide demos for all the algorithm we use in our article. The pre-trained models on natural images are in folder [models](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/models). The hyperbolic events data and the synthetic 3D data are included in [seismicData](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/seismicData) for reproducing the results we obtain.
+## Seismic data interpolation & denoising
+We provide few demos for reproducing some results. The pre-trained models using natural images are in folder [models](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/models). The hyperbolic events data and the synthetic 3D data are included in [seismicData](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/seismicData).
+
+1. [Demo\_pocs\_cnn.m](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/Demo_pocs_cnn.m) is provided for testing the CNN-POCS algorithm for seismic data interpolation.
+2. [Demo_cnndenoise.m](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/Demo_cnndenoise.m) is provided for testing denoising 2D seismic data using natural images pretrained CNN models.
+3. [Demo_cnndenoise3D.m](https://github.com/AlbertZhangHIT/CNN-POCS/tree/master/Demo_cnndenoise3D.m) is provided for testing denoising 3D seismic data.
 
 # Citation
-If this repository helps you with your research work, please consider to cite our work as
+If this repository helps you with your research, please consider citing our work
 
 	
 	@article{zhang2020can,
